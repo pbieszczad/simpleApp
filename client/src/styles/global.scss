@@ -1,0 +1,22 @@
+:global{
+    @import 'resources/variables.scss';
+
+    html{
+        font-size:62.5%;
+        line-height: 62.5%;
+    }
+    
+    body {
+        min-height: 100vh;
+        font-family: $font-primary;
+        overflow-x: hidden;
+        transition: .5s transform;
+        font-size:1.4rem;
+    }
+
+    @import 'components/_buttons.scss';
+    @import 'components/_page.scss';
+    @import 'components/_filters.scss';
+    @import 'components/_form.scss';
+    @import 'components/_modal.scss';
+}
